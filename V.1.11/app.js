@@ -27,7 +27,7 @@ app.get('/admin', (req, res) => {
 
 
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://abdoubk:c4a@cluster0.qjywiog.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("link here")
   .then( (result) => {
     app.listen(port, () => {
       console.log(`Example app listening on http://localhost:${port}`);
